@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>conversor boladão sério</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id = "corpoutil"> 
+      <h1> CONVERSORZINHO </h1>
+      <p><img id = "imagem1" src= "enoismlk.png"></p>
+      <br> 
+      <p> base decimal </p>
+      <p> <input id = "base10" type = "tel" placeholder = "número na base decimal" onkeyup = "gerenciadora(10,this)" onkeydown = "return(filtro(event, 10))" > </p>
+         
+      <p> base binária </p>
+      <p> <input id = "base2" type = "tel" placeholder = "número na base binária" onkeyup = "gerenciadora(2,this)" onkeydown = "return(filtro(event, 2))" > </p>
+         
+      <p> base octal </p>
+      <p> <input id = "base8" type = "tel" placeholder = "número na base octal" onkeyup = "gerenciadora(8,this)" onkeydown = "return(filtro(event, 8))" > </p>
+        
+      <p> base hexadecimal </p>
+      <p> <input id = "base16" type = "tel" placeholder = "número na base hexadecimal" onkeyup = "gerenciadora(16,this)" onkeydown = "return(filtro(event, 16))" > </p>
+      
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

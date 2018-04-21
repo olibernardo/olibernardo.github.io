@@ -1,0 +1,25 @@
+*
+{
+  box-sizing: border-box;
+  font-family: Tahoma,Sans-Serif;
+  transition: all 0.3s;
+}
+
+body
+{
+background: #ffcce6;  
+}
+
+h1,p
+{
+  text-align:center;
+  color: #722;
+}
+
+
+
+#imagem1
+{
+  width: 15%;
+  
+}
